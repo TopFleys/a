@@ -1,0 +1,159 @@
+@import "./reset.css";
+/*Хедер*/
+.header {
+    height: 282px;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 107, 179, 0.2) 0%,
+        rgba(14, 187, 250, 0.2) 54.69%,
+        rgba(255, 255, 255, 0.2) 100%
+)}
+
+body {
+    background: url(http://news.cgtn.com/news/3d59444f3449444e/img/88d8ffdc-bca3-4132-9c6b-793754da22b0.jpg);
+    background-size: cover;
+}
+
+/*нзв сверху*/
+.title {
+    font-family: "Roboto Slab-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center;
+    padding-top: 25px;
+}
+/*Понедельник*/
+.monday_card {
+    margin-top: 200px;
+    padding-left: 194px;
+    margin-left: 194px;
+    width: 444px;
+    height: 228px;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+    background: linear-gradient(
+      180deg,
+      rgba(41, 128, 185, 0.2) 0%,
+      rgba(109, 213, 250, 0.2) 54.69%,
+      rgba(255, 255, 255, 0.2) 100%
+    );
+}
+
+.mon_name {
+    margin-left: -80px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 31px;
+    letter-spacing: 0;
+}
+
+.mon_value {
+    margin-top: -100px;
+    margin-left: 55px;
+    width: 58px;
+    height: 40px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.mon_png {
+    margin-left: 115px;
+    width: 109px;
+    height: 98px;
+
+}
+/*Вторник*/
+.tuesday_card {
+    margin-left: 702px;
+    margin-top: -228px;
+    width: 444px;
+    height: 228px;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+    background: linear-gradient(
+      180deg,
+      rgba(41, 128, 185, 0.2) 0%,
+      rgba(109, 213, 250, 0.2) 54.69%,
+      rgba(255, 255, 255, 0.2) 100%
+)}
+
+.tue_name {
+    margin-left: 155px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 31px;
+    letter-spacing: 0;
+}
+
+.tue_value {
+    margin-bottom: -40px;
+    margin-left: 200px;
+    width: 58px;
+    height: 40px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.tue_png {  
+    margin-left: 265px;
+    width: 109px;
+    height: 98px;
+}
+/*Среда*/
+.wednesday_card {
+    margin-left: 1210px;
+    margin-top: -228px;
+    width: 444px;
+    height: 228px;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+    background: linear-gradient(
+      180deg,
+      rgba(41, 128, 185, 0.2) 0%,
+      rgba(109, 213, 250, 0.2) 54.69%,
+      rgba(255, 255, 255, 0.2) 100%
+)}
+
+.wed_name {
+    margin-left: 155px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 31px;
+    letter-spacing: 0;
+}
+
+.wed_value {
+    margin-left: 200px;
+    width: 58px;
+    height: 40px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.wed_png {
+    margin-top: -40px;
+    margin-left: 275px;
+    width: 109px;
+    height: 98px;
+}
